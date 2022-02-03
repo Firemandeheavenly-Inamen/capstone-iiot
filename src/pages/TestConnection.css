@@ -17,6 +17,15 @@
   left: -60px;
 }
 
+.reports{
+  width: 100%;
+  max-width: 850px;
+  position: relative;
+}
+
+#testconnection{
+margin-bottom: 20px;
+}
 .ant-select-selector{
   padding: 0 !important;
 }
@@ -93,7 +102,6 @@ li.ant-list-item {
 @media(max-width: 800px) {
   .testconnection {
     top: 250px;
-    margin: 0 auto;
     width: 500px;
     margin-left: 45px;
     margin-right: 45px;
@@ -102,6 +110,10 @@ li.ant-list-item {
   .ant-card{
     width: 400px;
   }
+  .reports{
+    width: 500px;
+    margin-left: 95px;
+      }
 }
 @media(max-width: 600px) {
   .testconnection {

@@ -87,12 +87,7 @@ li.ant-list-item {
   position: relative;
   margin-left: 0px;
 }
-.reports{
-  width: 100%;
-  max-width: 850px;
-  position: relative;
-  top: 30px;
-}
+
 #danger-button:hover {
   background:rgba(197, 31, 31, 0.795) !important;
   color: white;
@@ -146,7 +141,7 @@ padding-left: 0;
   }
 }
 @media(max-width: 600px) {
-  .dashboard {
+  .dashboard{
     top: 250px;
     margin: 0 auto;
     left: 10px;

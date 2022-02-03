@@ -197,7 +197,7 @@ export const TestConnection = () => {
 
   return (
     <div className="testconnection">
-      <Card
+      <Card id='testconnection'
         title="Test Connection"
         actions={[
           <Button type="primary" htmlType="submit" onClick={handleConnect}>

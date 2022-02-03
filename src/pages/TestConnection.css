@@ -90,20 +90,32 @@ li.ant-list-item {
   font-family: sans-serif;
 }
 
-  @media(max-width: 800px) {
-    .testconnection {
-      top: 250px;
-      width:450px;
-      margin: 0 auto;
-      left: 5px;
-      width: 100%;
-    }
+@media(max-width: 800px) {
+  .testconnection {
+    top: 250px;
+    margin: 0 auto;
+    width: 500px;
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 100%;
   }
-  @media(max-width: 600px) {
-    .testconnection {
-      top: 250px;
-      margin: 0 auto;
-      left: 80px;
-      width: 100%;
-    }
+  .ant-card{
+    width: 400px;
   }
+}
+@media(max-width: 600px) {
+  .testconnection {
+    top: 250px;
+    margin: 0 auto;
+    left: 10px;
+    width: 100%;
+  }
+}
+@media(max-width: 400px) {
+  .testconnection {
+    top: 250px;
+    margin: 0 auto;
+    left: 90px;
+    width: 100%;
+  }
+}

@@ -143,7 +143,6 @@ padding-left: 0;
   }
   .ant-card{
     width: 400px;
-    background-color: aqua;
   }
 }
 @media(max-width: 600px) {

@@ -13,7 +13,7 @@
   margin-left: 310px;
   top: 80px;
   border-radius: 0px;
-  min-width: 500px;
+  min-width: 450px;
   left: -60px;
 }
 
@@ -135,17 +135,30 @@ padding-left: 0;
 @media(max-width: 800px) {
   .dashboard {
     top: 250px;
-    width:450px;
     margin: 0 auto;
-    left: 5px;
+    width: 500px;
+    margin-left: 45px;
+    margin-right: 45px;
     width: 100%;
+  }
+  .ant-card{
+    width: 400px;
+    background-color: aqua;
   }
 }
 @media(max-width: 600px) {
   .dashboard {
     top: 250px;
     margin: 0 auto;
-    left: 80px;
+    left: 10px;
+    width: 100%;
+  }
+}
+@media(max-width: 400px) {
+  .dashboard {
+    top: 250px;
+    margin: 0 auto;
+    left: 90px;
     width: 100%;
   }
 }
